@@ -88,6 +88,31 @@ header h1 span {
     color: white;
 }
 
+/* Estilização Base dos Ícones Dinâmicos (Novidade) */
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Seta Verde para Cima */
+.icon-income {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2349aa26'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 10v4h-2v-4H8l4-4 4 4h-3z'/></svg>");
+}
+
+/* Seta Vermelha para Baixo */
+.icon-expense {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e92929'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 8h3l-4 4-4-4h3V8h2v2z'/></svg>");
+}
+
+/* Cifrão Branco para o Total */
+.icon-total {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-1.12c-1.24-.13-2.42-.74-3.15-1.67l1.39-1.16c.48.64 1.25 1.03 1.76 1.08V12c-1.84-.53-3-1.39-3-2.9 0-1.47 1.05-2.58 2.41-2.91V5h2v1.1c1.07.11 2.01.59 2.65 1.34l-1.39 1.16c-.4-.48-.99-.77-1.26-.82v3.1c1.9.59 3 1.43 3 2.97 0 1.57-1.13 2.75-2.41 3.03V18z'/></svg>");
+}
+
 /* Tabela e Botões */
 #transaction {
     display: block;
